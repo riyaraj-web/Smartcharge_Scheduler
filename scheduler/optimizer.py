@@ -2,7 +2,10 @@
 Core scheduling optimizer using Google OR-Tools CP-SAT solver.
 """
 
-from ortools.sat.python import cp_model
+try:
+    from ortools.sat.python import cp_model
+except ImportError:
+    from ortools.sat import cp_model
 from typing import List, Dict, Tuple, Optional
 from .models import (
     Scenario, Schedule, BusSchedule, ChargingStop, 
