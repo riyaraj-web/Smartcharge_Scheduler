@@ -1,4 +1,5 @@
-streamlit
-ortools
-pandas
-numpy
+streamlit==1.31.0
+ortools==9.9.3963
+pandas==2.2.0
+numpy==1.26.3
+protobuf==4.25.2
