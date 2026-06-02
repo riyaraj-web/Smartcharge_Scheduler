@@ -2,6 +2,8 @@
 
 An intelligent scheduling system for electric bus charging stations using constraint optimization.
 
+https://smartchargescheduler-kf6fa8xq7hjhj7ebpbxbga.streamlit.app/
+
 ## Overview
 
 This system schedules charging for 20 electric buses traveling between Bengaluru and Kochi, optimizing for individual bus delays, operator fleet performance, and overall network efficiency.
